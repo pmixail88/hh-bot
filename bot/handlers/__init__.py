@@ -1,13 +1,18 @@
-from .start_handler import router as start_router
-from .search_settings_handler import router as search_settings_router
-from .vacancies_handler import router as vacancies_router
-from .profile_handler import router as profile_router
-from .llm_settings_handler import router as llm_settings_router
+from .base import router as base_router
+from .profile import router as profile_router
+from .search2 import router as search_router
+from .vacancies import router as vacancies_router
+from .llm import router as llm_router
+from aiogram import Router
 
-__all__ = [
-    "start_router",
-    "search_settings_router", 
-    "vacancies_router",
-    "profile_router",
-    "llm_settings_router"
-]
+# Главный роутер
+router = Router()
+
+# Включаем все роутеры
+router.include_router(base_router)
+router.include_router(profile_router)
+router.include_router(search_router)
+router.include_router(vacancies_router)
+router.include_router(llm_router)
+
+__all__ = ['router']

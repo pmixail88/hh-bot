@@ -64,10 +64,3 @@ postgres-data/
 cache/
 .cache/
 aiogram_state/
-
-# --- Project specific ---
-# generated docs or templates
-generated/
-documents/
-tmp/
-temp/

@@ -1,0 +1,28 @@
+Проверяем все callback_data в проекте...
+✅ Найдено 26 callback_data
+  • menu_main - Главное меню
+  • menu_vacancies - Поиск вакансий
+  • menu_search_settings - Настройки поиска
+  • menu_profile - Мой профиль
+  • menu_my_vacancies - Мои вакансии
+  • menu_llm_settings - AI Помощник
+  • menu_stats - Статистика
+  • menu_help - Помощь
+  • settings_keywords - Ключевые слова
+  • settings_region - Регион
+  • settings_salary_from - Зарплата от
+  • settings_salary_to - Зарплата до
+  • settings_experience - Опыт
+  • settings_schedule - График
+  • settings_period - Период
+  • settings_reset_all - Сбросить все
+  • settings_save - Сохранить
+  • menu_search_vacancies - Начать поиск
+  • page_0 - Страница 0
+  • page_1 - Страница 1
+  • show_current_page - Инфо о странице
+  • vacancy_favorite_ - В избранное
+  • vacancy_apply_ - Откликнуться
+  • vacancy_view_ - Просмотрено
+  • vacancy_notes_ - Заметки
+  • vacancy_back_to_list - Назад к списку
