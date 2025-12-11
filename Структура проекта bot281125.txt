@@ -1,0 +1,33 @@
+bot/
+├── core/
+│   ├── __init__.py
+│   ├── config.py
+│   ├ dependencies.py
+│   └── errors.py
+├── database/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── repository.py
+│   └── migrations/
+├── handlers/
+│   ├── __init__.py
+│   ├── base.py
+│   ├── profile.py
+│   ├── search.py
+│   ├── vacancies.py
+│   └── llm.py
+├── services/
+│   ├── __init__.py
+│   ├── hh_service.py
+│   ├── llm_service.py
+│   ├── vacancy_service.py
+│   └── cache.py
+├── utils/
+│   ├── __init__.py
+│   ├── keyboards.py
+│   ├── states.py
+│   ├── validators.py
+│   └── scheduler.py
+└── middleware/
+    ├── __init__.py
+    └── error_handler.py

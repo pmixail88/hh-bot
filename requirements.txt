@@ -1,12 +1,21 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b817b9eea37579fb424805ffcc6beda103e82279
 asyncpg==0.29.0
 requests==2.31.0
 pydantic==2.8.2
 pydantic-settings==2.4.0
 sqlalchemy==2.0.23
+<<<<<<< HEAD
+=======
+python-dotenv==1.0
+>>>>>>> b817b9eea37579fb424805ffcc6beda103e82279
 apscheduler==3.10.4
 openai==1.57.4
 colorama==0.4.6
 aiohttp==3.9.1
+<<<<<<< HEAD
 psycopg2-binary==2.9.9
 redis==5.0.1
 pytest==7.4.3
@@ -41,3 +50,12 @@ loguru==0.7.2
 # Удалите pydantic или добавьте pydantic-settings
 pydantic-settings==2.1.0
 # pydantic==2.5.0  # Если нужно, но лучше только pydantic-settings
+=======
+alembic==1.13.1
+psycopg2-binary==2.9.9
+aiogram==3.10.0
+redis==5.0.1
+pytest==7.4.3
+pytest-asyncio==0.21.1
+redis==5.0.1  # ← добавить эту строку
+>>>>>>> b817b9eea37579fb424805ffcc6beda103e82279
