@@ -1,0 +1,43 @@
+asyncpg==0.29.0
+requests==2.31.0
+pydantic==2.8.2
+pydantic-settings==2.4.0
+sqlalchemy==2.0.23
+apscheduler==3.10.4
+openai==1.57.4
+colorama==0.4.6
+aiohttp==3.9.1
+psycopg2-binary==2.9.9
+redis==5.0.1
+pytest==7.4.3
+pytest-asyncio==0.21.1
+aiogram==3.22.0
+alembic==1.12.1
+python-dotenv==1.0.0
+redis>=4.5.0; extra == 'redis'
+cryptography==46.0.3 
+pycparser==2.23
+
+# Тестирование
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+requests==2.31.0
+
+# Для мокинга
+pytest-mock==3.11.1
+
+# Для тестовых данных
+Faker==19.6.2
+# Для работы с датами
+python-dateutil==2.8.2
+
+# Для HTTP запросов
+httpx==0.25.2
+
+# Для логирования
+loguru==0.7.2
+
+# Удалите pydantic или добавьте pydantic-settings
+pydantic-settings==2.1.0
+# pydantic==2.5.0  # Если нужно, но лучше только pydantic-settings
